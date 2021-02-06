@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    font-family: Open Sans;
+    color: #48555B;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+}
+
+.header{
+    position: relative;
+    height: 110vh;
+    color: white;
+    text-align: center;
+}
+
+.header_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__logo{
+    position: absolute;
+    top: 20px;
+    width: 100%; 
+    font-family: Bebas Neue;
+    font-size: 1.85em; 
+}
+
+.header__content{
+    position: absolute; 
+    top: 48%;
+    font-family: Bebas Neue;
+    width: 100%;
+    font-size: 3.1em;
+    letter-spacing: 0.15em; 
+}
+
+.header__sub_content{
+    position: absolute; 
+    top: 110%;
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 0.25em;
+    letter-spacing: 0.1em;
+}
+
+.header__scroll{
+    position: absolute; 
+    top: 85%;
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 0.80em;
+    letter-spacing: 0.4em;
+}
+
+nav{
+    display: flex;
+    border: 1px solid #E6E6E6;
+    padding: 1.2em 0.8em 0.8em 0;
+}
+
+.nav__logo{
+    padding-left: 14%;
+    width: 40%;
+    font-family: Bebas Neue;
+    font-size: 1.30em;  
+}
+
+.nav__logo a{
+    color: black;
+}
+
+.nav__logo img {
+    height: 0.75em;
+}
+
+.nav__item_list{
+    width: 50%; 
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+.nav__item{
+    padding-left: 1em;
+    padding-right: 1em; 
+    color: #48555B;
+}
+
+.nav__item--active{
+    padding-left: 1em;
+    padding-right: 1em;
+    color:#00A4E5;
+    font-weight: 600;
+
+}
+
+.content {
+    margin: 0 14%;
+}
+
+.content__story{
+    display: flex;
+}
+
+.content__story__header{
+    margin-top: 4em;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.content__story__header p::after {
+    content: "";
+    padding-top: 10px;
+    display:block;
+    width:50px;
+    border-bottom:2px solid #00A4E5;
+    margin: 0 auto;
+}
+
+.content__story__text{
+    width: 50%;
+    color:#48555B;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.content__story__text span{
+    color: #00A4E5
+}
+
+.content__story__text_sub{
+    font-size: 0.64em;
+    font-weight: 400;
+    margin-top: 20px;
+    line-height: 180%;
+}
+
+.content__story__images{
+    margin-top: 30px;
+    display: flex;
+    width: 54%;
+    margin-left: 10%;  
+}
+
+
+
+.content__story__images img {
+    max-height: 100%;
+    width: 100%;
+    
+}
+
+.content__story__image_wraper{
+    position: relative;
+    margin-left: 10px; 
+    width: 33%;
+}
+
+.content__story__image_wraper:last-child{
+    padding: 0;
+}
+
+.content__story__image_wraper span{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    font-size: 1em;
+    font-weight: 700;
+    word-wrap:break-word;
+    color: white;
+    z-index: 1;
+}
+
+
+.content__capabileties__herder_wraper{
+    display: flex;
+    margin-top: 60px;
+}
+
+.content__capabileties__herder{
+    width: 40%;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.23em;
+    padding-right: 10px;
+}
+
+.content__capabileties__herder p::after {
+    content: "";
+    padding-top: 10px;
+    display:block;
+    width:50px;
+    border-bottom:2px solid #00A4E5;
+    margin: 0;
+}
+
+.content__capabileties__herder__sub{
+    width: 60%;
+    margin-right: 30px;
+    font-size: 0.6em;
+}
+.content__capabileties__herder__a{
+    width: 140px;
+    padding: 12px 0;
+    margin: 0 auto;
+    font-size: 0.65em;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: #00A4E5;
+}
+
+.content__capabileties_block_wraper{
+    display: flex;
+    
+    margin-top: 60px;
+    width: 100%;
+}
+
+.content__capabileties_block{
+    width: 33%;
+    border: 1px solid #E6E6E6;
+    padding: 38px 22px;
+    margin-right: 10px;
+}
+.content__capabileties_block:last-child{
+    margin: 0;
+}
+
+.content__capabileties_block p{
+    font-size: 0.8em;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.content__capabileties_block img{
+    width: 20%;
+}
+
+.content__capabileties_block span{
+    font-size: 0.85em;
+    font-weight: 400;
+}
+
+.bild{
+    position: relative;
+    margin-top: 40px;
+    background: url("../img/bg2.png");
+    background-position: 0 0px;
+    height: 498px;
+    background-size: cover;
+}
+
+.bild img{
+    width: 100%;
+    height: 100%;
+}
+
+.bild__block{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+}
+
+.bild p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.bild__a{
+    margin: 0 auto;
+    width: 140px;
+    padding: 12px 0;
+    font-size: 0.75em;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: #00A4E5;
+}
+
+.footer__signup{
+    margin-top: -1px;
+    display:flex;
+    padding: 30px;
+    background-color: #171819;
+}
+
+.footer__signup__head{
+    margin: 0 8% 0 30%;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: #ffffff; 
+}
+
+input[type="text"] {
+    height: 30px;
+    border: 0;
+}
+
+.footer__signup__a{
+    
+    padding: 2px 35px 0;
+    height: 30px;
+    background: #00A4E5;
+    color: #ffffff;
+}
+
+.footer__signup__a span{
+    font-size: 0.8em;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.footer__block{
+    padding: 40px 13%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #141A20;
+    color: #ffffff;
+}
+
+.footer__block__header{
+    width: 33%;
+    margin-bottom: 10px;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+}
+
+.footer__block__content{
+    width: 33%;
+}
+
+.footer__block__content__company_logo{
+    margin-bottom: 7px;
+    width: 100%; 
+    font-family: Bebas Neue;
+    font-size: 1.85em;
+}
+
+.footer__block__company_content{
+    width: 80%;
+    font-size: .7em;
+}
+
+.footer__block__links{
+    display: flex;
+
+}
+
+.footer__block__links div{
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block__links a{
+    margin-bottom: 8px;
+    width: 100%;
+    font-size: .7em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: #ffffff
+}
+
+.footer__block__contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block__contact span{
+    margin-bottom: 8px;
+    width: 100%;
+    font-size: .7em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1850px){
+.bild{
+    height: 700px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .content__story{
+        flex-wrap: wrap;
+    }
+    .content__story__text{
+        width: 100%;
+    }
+    .content__story__images{
+        padding-top: 10%;
+        margin: 0 auto;
+    }
+    .content__story__image_wraper span{
+        font-size: 0.65em;
+    }
+    .content__capabileties_block_wraper{
+        flex-wrap: wrap;
+    }
+    .content__capabileties_block{
+        width: 60%;
+        margin: 30px 15%;
+    }
+    .content__capabileties_block:last-child{
+        width: 60%;
+        margin: 30px 15%;
+    }
+    .footer__signup__head{
+        margin: 0 5% 0 15%;
+    }
+    .footer__block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__block div{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .footer__block__links div{
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nav__logo{
+        width: 100%;
+    }
+    .nav__item_list a{
+        opacity: 0;
+        font-size: 0px;
+    }
+    .nav__item_list-active{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 120%;
+        left: calc(40%);
+    }
+    .nav__item_list-active a{
+        opacity: 1;
+        font-size: 2em;
+        z-index: 10;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .nav__btn{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+        z-index:5;
+        overflow: hidden;
+    }
+    .nav__btn span{
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #00A4E5;
+        transition: all 0.5s;
+    }
+    .nav__bg_wraper{
+        position: relative;
+    }
+    .nav__bg-active{
+        position: absolute;
+        width: calc(102vw - 3px);
+        height: 100vh;
+        left: -100vw;
+        z-index: 2;
+        background-color: rgba(203, 221, 224, 0.966);
+        transition: all 0.5s;
+    }
+
+    .nav__btn span:nth-of-type(2) {
+        top: calc(50% - 7px);
+    }
+    .nav__btn span:nth-of-type(3) {
+        top: calc(50% + 7px);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .content__capabileties__herder_wraper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content__capabileties__herder{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .content__capabileties__herder__sub{
+        margin-bottom: 10px;
+    }
+    .content__capabileties_block img{
+        width: 40%;
+    }
+    .bild p{
+        font-size: 0.8em;
+        margin-bottom: 10px;
+    }
+    .bild__a{
+        width: 90px;
+        padding: 9px 0;
+        font-size: 0.8em;
+    }
+    .footer__signup{
+        flex-wrap: wrap;
+    }
+    .footer__signup span{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .content__story__image_wraper span{
+        font-size: 0.50em;
+    }
+    .footer__block__header{
+        width: 100%;
+    }
+    .footer__block__links{
+        flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    .content__story__images{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content__story__image_wraper{
+        margin-top: 20px;
+        width: 70%;
+    } 
+    .content__story__image_wraper span{
+        font-size: 0.80em;
+    }  
+    input[type="text"] {
+        width: 140px;
+    } 
+    .footer__signup__a{  
+        padding: 2px 30px 0;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer__signup__a{ 
+        margin-top: 20px;
+    } 
+}
