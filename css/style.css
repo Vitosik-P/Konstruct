@@ -453,6 +453,10 @@ input[type="text"] {
 }
 
 @media screen and (max-width: 800px){
+    
+    nav{
+        padding-right: 0;
+    }
     .nav__logo{
         width: 100%;
     }
@@ -476,6 +480,7 @@ input[type="text"] {
     }
     .nav__btn{
         position: relative;
+        margin-right: 5px;
         width: 30px;
         height: 30px;
         opacity: 1;
@@ -497,7 +502,7 @@ input[type="text"] {
     }
     .nav__bg-active{
         position: absolute;
-        width: calc(102vw - 3px);
+        width: calc(100vw + 1px);
         height: 100vh;
         left: -100vw;
         z-index: 2;
