@@ -497,6 +497,7 @@ input[type="text"] {
         background-color: #00A4E5;
         transition: all 0.5s;
     }
+
     .nav__bg_wraper{
         position: relative;
     }
@@ -515,6 +516,24 @@ input[type="text"] {
     }
     .nav__btn span:nth-of-type(3) {
         top: calc(50% + 7px);
+    }
+
+    .nav__btn-active {
+        transform: translateX(0);
+    }
+
+    .nav__btn-active span:first-of-type {
+        transform: translateX(100%);
+    }
+    
+    .nav__btn-active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    
+    .nav__btn-active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
     }
 }
 
