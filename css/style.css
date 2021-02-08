@@ -219,6 +219,10 @@ nav {
 
 .content__capabileties_block_wraper {
   display: flex;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9a7d449019dc65d5eda5c8346df3ee6b3b5adc28
   margin-top: 60px;
   width: 100%;
 }
@@ -265,7 +269,11 @@ nav {
 .bild__block {
   position: absolute;
   top: 20%;
+<<<<<<< HEAD
   right: calc(50% - 164px);
+=======
+  right: 40%;
+>>>>>>> 9a7d449019dc65d5eda5c8346df3ee6b3b5adc28
 }
 
 .bild p {
@@ -381,6 +389,7 @@ input[type='text'] {
   letter-spacing: 0.2em;
 }
 
+<<<<<<< HEAD
 .footer__info{
   padding: 10px 0;
   background-color: #171819;
@@ -389,6 +398,8 @@ input[type='text'] {
   font-size: .7em;
 }
 
+=======
+>>>>>>> 9a7d449019dc65d5eda5c8346df3ee6b3b5adc28
 @media screen and (min-width: 1850px) {
   .bild {
     height: 700px;
@@ -489,9 +500,14 @@ input[type='text'] {
   .nav__bg-active {
     position: absolute;
     width: calc(100vw + 1px);
+<<<<<<< HEAD
     height: 120vh;
     left: -100vw;
     top: -20px;
+=======
+    height: 100vh;
+    left: -100vw;
+>>>>>>> 9a7d449019dc65d5eda5c8346df3ee6b3b5adc28
     z-index: 2;
     background-color: rgba(203, 221, 224, 0.966);
     transition: all 0.5s;
